@@ -26,12 +26,17 @@ This folder contains three exemplary sumo simulations.
 
 ### Excercises
 
-**First Task: Build your own network from scatch** 
+**First Task: Introduction** 
+1. Run each simulation and watch them. During the runtime, you can zoom in, move, and even track single vehicles during their journey.
+2. Have a look on the XML files of each project and try to understand the structure. Use text editor tools such as `Notepad++` to open the XML files.
+3. Play around and change some numbers, rerun the simulation, and see what happens.
+
+**Second Task: Build your own network from scatch** 
 1. Go to Google Maps, and search an intersection you find interesting (e.g. from your homecity, the larger roundabout of Paris, Zurich HB / city center).
 2. Open application `NetEdit`, and click `File` -> `Create New Network`.
 3. Play around with the GUI and try to build the network you want.
 
-**Second Tasks: Build a specified network from scatch** 
+**Third Task: Build a specified network from scatch** 
 1. Open application `NetEdit`, and click `File` -> `Create New Network`.
 2. Build a network that has at least: 
  - three intersections
@@ -42,7 +47,7 @@ This folder contains three exemplary sumo simulations.
  - a bus lane
  - one roundabout (you can convert a normal intersection to a roundabout)
 
-**Third Tasks: Import a network from Open Street Map (OSM)**
+**Fourth Task: Import a network from Open Street Map (OSM)**
 1. Open your browser application.
 2. Go to [https://www.openstreetmap.org/export#map=15/49.96411/8.38424](https://www.openstreetmap.org/export#map=15/49.96411/8.38424).
 3. This is Open Street Map showing my home village (Bauschheim in Germany).
@@ -64,12 +69,12 @@ There are also alternatives how to download OSM material.
 The browser based version is limited by the maximum area you can cover.
 More information on the alternatives can be found here: [https://sumo.dlr.de/docs/Networks/Import/OpenStreetMapDownload.html](https://sumo.dlr.de/docs/Networks/Import/OpenStreetMapDownload.html).
 
-**Fourth Task: Combine Network and Demand Model"**
+**Fifth Task: Combine Network and Demand Model"**
 - After successfully creating maps in the previous three tasks, pick one of them.
 - Open application `Notepad++`.
 - Generate a `Demand.xml` and `Configuration.Configuration.sumocfg` manually for the network.
 - Run your simulation and develop an understanding of how to create demand models.
 
-**Have Seen enough already?**
+**Have seen enough already?**
 - I guess you are curious about creating your own network. 
 - Feel free to read the documentation of SUMO, checkout some tutorials, or help your colleagues solve their issues.

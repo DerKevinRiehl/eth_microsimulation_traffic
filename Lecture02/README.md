@@ -74,6 +74,6 @@ This folder contains three exemplary sumo simulations.
 - Then you should automatically jump with the viewport to that specific car.
 - Then click `Track` and continue the simulation by pressing the green `Run` button. You should now follow the car while it is driving through the network.
 
-**Have Seen enough already?**
+**Have seen enough already?**
 - I guess you are curious about creating your own network. 
 - Feel free to read the documentation of SUMO, checkout some tutorials, or help your colleagues solve their issues.
