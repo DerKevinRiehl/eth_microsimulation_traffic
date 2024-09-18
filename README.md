@@ -33,7 +33,7 @@ The course introduces basics of microscopic modelling and simulation of traffic 
 - Make valid and concrete engineering proposals based on the simulation model and alternative scenarios.
 
 ### Course Syllabus & Lecture Content
-- Lecture 01: Introduction, General Information, Installing SUMO
+- [Lecture 01: Introduction, General Information, Installing SUMO](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture01/README.md)
 - Lecture 02: Components of Microsimulations & SUMO Introduction
 - Lecture 03: Create Network & Demand Models
 - Lecture 04: Signals, Sensors, Public transport, Calibration
