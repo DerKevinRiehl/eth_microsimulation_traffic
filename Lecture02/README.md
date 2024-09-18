@@ -51,7 +51,7 @@ This folder contains three exemplary sumo simulations.
 
 ### Excercises
 
-**First Tasks: Introduction** 
+**First Task: Introduction** 
 1. Run each simulation and watch them. During the runtime, you can zoom in, move, and even track single vehicles during their journey.
 2. Have a look on the XML files of each project and try to understand the structure. Use text editor tools such as `Notepad++` to open the XML files.
 3. Play around and change some numbers, rerun the simulation, and see what happens.
