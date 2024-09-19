@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-19 09:30:14 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_0" lane="E5_1" startPos="59.72" endPos="69.72"/>
+    <!-- Detectors -->
+    <inductionLoop id="e1_0" lane="E5_1" pos="81.18" period="300.00" file="e1_0.xml"/>
+    <inductionLoop id="e1_1" lane="E5_2" pos="80.74" period="300.00" file="e1_1.xml"/>
+    <inductionLoop id="e1_2" lane="-E7_2" pos="81.33" period="300.00" file="e1_2.xml"/>
+    <inductionLoop id="e1_3" lane="-E7_1" pos="81.33" period="300.00" file="e1_3.xml"/>
+    <inductionLoop id="e1_4" lane="E5_0" pos="81.91" period="300.00" file="e1_4.xml"/>
+</additional>

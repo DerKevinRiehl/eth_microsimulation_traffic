@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-19 08:01:45 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_0" lane="E1_0" startPos="40.15" endPos="50.15"/>
+    <busStop id="bs_1" lane="-E1_0" startPos="42.84" endPos="52.84"/>
+    <busStop id="bs_2" lane="-E3_0" startPos="39.26" endPos="49.26"/>
+    <busStop id="bs_3" lane="E3_0" startPos="40.42" endPos="50.42"/>
+    <busStop id="bs_4" lane="E9_0" startPos="41.71" endPos="51.71"/>
+    <busStop id="bs_5" lane="E7_0" startPos="36.84" endPos="46.84"/>
+    <busStop id="bs_6" lane="-E7_0" startPos="39.44" endPos="49.44"/>
+	
+	<!-- Public Transport -->
+	<vType id="BUS" accel="2.6" decel="4.5" sigma="0" length="12" minGap="3" maxSpeed="70" color="1,1,0" guiShape="bus"/>
+    <vehicle id="0" type="BUS" depart="0" color="1,1,0">
+		<route edges="E0 E6 E7 E8 E9 E5 E0 E1 E2 E3 E4 E5" />
+        <stop busStop="bs_5" duration="20"/>
+        <stop busStop="bs_4" duration="20"/>
+        <stop busStop="bs_0" duration="20"/>
+        <stop busStop="bs_3" duration="20"/>
+    </vehicle>
+</additional>
