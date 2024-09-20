@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-20 10:03:10 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- RouteProbes -->
+    <routeProbe id="rp_0" begin="0.00" period="3600.00" edge="E0" file="rp_0.xml"/>
+    <!-- Detectors -->
+    <inductionLoop id="e1_0" lane="E0_0" pos="37.64" period="300.00" file="e1_0.xml"/>
+    <inductionLoop id="e1_1" lane="E5_0" pos="47.27" period="300.00" file="e1_1.xml"/>
+    <instantInductionLoop id="e1i_0" lane="E0_0" pos="12.09" file="e1i_0.xml"/>
+    <instantInductionLoop id="e1i_1" lane="E0_0" pos="23.86" file="e1i_1.xml"/>
+    <instantInductionLoop id="e1i_2" lane="E5_0" pos="58.32" file="e1i_2.xml"/>
+    <instantInductionLoop id="e1i_3" lane="E5_0" pos="69.95" file="e1i_3.xml"/>
+    <laneAreaDetector id="e2_0" lane="E6_0" pos="21.10" length="10.00" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="e2_1" lane="E6_0" pos="50.82" length="20.00" period="300.00" file="e2_1.xml"/>
+    <entryExitDetector id="e3_0" pos="83.08,112.11" period="300.00" file="e3_0.xml">
+        <detEntry lane="E3_0" pos="80.86"/>
+        <detEntry lane="E6_0" pos="75.52"/>
+        <detEntry lane="-E7_0" pos="81.04"/>
+        <detExit lane="E4_0" pos="14.40"/>
+        <detExit lane="-E3_0" pos="19.82"/>
+        <detExit lane="E7_0" pos="4.81"/>
+    </entryExitDetector>
+</additional>

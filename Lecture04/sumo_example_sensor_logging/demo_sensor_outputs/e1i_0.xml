@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-20 10:05:31 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Network.net.xml"/>
+        <route-files value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Routes.xml"/>
+        <additional-files value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\SensorElements.add.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <full-output value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Output_Full.xml"/>
+        <lanedata-output value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Output_LaneData.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<instantE1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/instant_e1_file.xsd">
+    <instantOut id="e1i_0" time="2.01" state="enter" vehID="f_0.0" speed="7.07" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="2.71" state="leave" vehID="f_0.0" speed="7.07" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.71"/>
+    <instantOut id="e1i_0" time="12.06" state="enter" vehID="f_0.1" speed="6.45" length="5.00" type="DEFAULT_TAXITYPE" gap="9.34"/>
+    <instantOut id="e1i_0" time="12.83" state="leave" vehID="f_0.1" speed="6.45" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.78"/>
+    <instantOut id="e1i_0" time="22.18" state="enter" vehID="f_0.2" speed="6.14" length="5.00" type="DEFAULT_TAXITYPE" gap="9.35"/>
+    <instantOut id="e1i_0" time="22.99" state="leave" vehID="f_0.2" speed="6.14" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.81"/>
+    <instantOut id="e1i_0" time="32.45" state="enter" vehID="f_0.3" speed="4.79" length="5.00" type="DEFAULT_TAXITYPE" gap="9.46"/>
+    <instantOut id="e1i_0" time="33.00" state="stay" vehID="f_0.3" speed="4.79" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="33.33" state="leave" vehID="f_0.3" speed="7.25" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.87"/>
+    <instantOut id="e1i_0" time="41.98" state="enter" vehID="f_0.4" speed="4.77" length="5.00" type="DEFAULT_TAXITYPE" gap="8.65"/>
+    <instantOut id="e1i_0" time="42.00" state="stay" vehID="f_0.4" speed="4.77" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="42.80" state="leave" vehID="f_0.4" speed="6.16" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.82"/>
+    <instantOut id="e1i_0" time="52.04" state="enter" vehID="f_0.5" speed="6.47" length="5.00" type="DEFAULT_TAXITYPE" gap="9.25"/>
+    <instantOut id="e1i_0" time="52.82" state="leave" vehID="f_0.5" speed="6.47" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.77"/>
+    <instantOut id="e1i_0" time="59.03" state="enter" vehID="f_0.0" speed="8.73" length="5.00" type="DEFAULT_TAXITYPE" gap="6.21"/>
+    <instantOut id="e1i_0" time="59.60" state="leave" vehID="f_0.0" speed="8.73" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="62.46" state="enter" vehID="f_0.6" speed="4.66" length="5.00" type="DEFAULT_TAXITYPE" gap="2.86"/>
+    <instantOut id="e1i_0" time="63.00" state="stay" vehID="f_0.6" speed="4.66" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="63.34" state="leave" vehID="f_0.6" speed="7.26" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="72.07" state="enter" vehID="f_0.7" speed="6.35" length="5.00" type="DEFAULT_TAXITYPE" gap="8.73"/>
+    <instantOut id="e1i_0" time="72.86" state="leave" vehID="f_0.7" speed="6.35" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.79"/>
+    <instantOut id="e1i_0" time="82.04" state="enter" vehID="f_0.8" speed="6.02" length="5.00" type="DEFAULT_TAXITYPE" gap="9.19"/>
+    <instantOut id="e1i_0" time="82.87" state="leave" vehID="f_0.8" speed="6.02" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="92.27" state="enter" vehID="f_0.9" speed="5.30" length="5.00" type="DEFAULT_TAXITYPE" gap="9.39"/>
+    <instantOut id="e1i_0" time="93.00" state="stay" vehID="f_0.9" speed="5.30" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="93.17" state="leave" vehID="f_0.9" speed="6.71" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.90"/>
+    <instantOut id="e1i_0" time="102.08" state="enter" vehID="f_0.10" speed="5.68" length="5.00" type="DEFAULT_TAXITYPE" gap="8.91"/>
+    <instantOut id="e1i_0" time="102.96" state="leave" vehID="f_0.10" speed="5.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="112.28" state="enter" vehID="f_0.11" speed="5.77" length="5.00" type="DEFAULT_TAXITYPE" gap="9.32"/>
+    <instantOut id="e1i_0" time="113.00" state="stay" vehID="f_0.11" speed="5.77" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="113.12" state="leave" vehID="f_0.11" speed="7.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="122.32" state="enter" vehID="f_0.12" speed="5.52" length="5.00" type="DEFAULT_TAXITYPE" gap="9.21"/>
+    <instantOut id="e1i_0" time="123.00" state="stay" vehID="f_0.12" speed="5.52" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="123.16" state="leave" vehID="f_0.12" speed="7.64" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="132.87" state="enter" vehID="f_0.1" speed="7.59" length="5.00" type="DEFAULT_TAXITYPE" gap="9.71"/>
+    <instantOut id="e1i_0" time="133.00" state="stay" vehID="f_0.1" speed="7.59" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="133.42" state="leave" vehID="f_0.1" speed="9.55" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="136.91" state="enter" vehID="f_0.2" speed="7.17" length="5.00" type="DEFAULT_TAXITYPE" gap="3.48"/>
+    <instantOut id="e1i_0" time="137.00" state="stay" vehID="f_0.2" speed="7.17" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="137.51" state="leave" vehID="f_0.2" speed="8.52" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="139.82" state="enter" vehID="f_0.3" speed="7.22" length="5.00" type="DEFAULT_TAXITYPE" gap="2.31"/>
+    <instantOut id="e1i_0" time="140.00" state="stay" vehID="f_0.3" speed="7.22" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="140.40" state="leave" vehID="f_0.3" speed="9.25" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="142.90" state="enter" vehID="f_0.4" speed="6.81" length="5.00" type="DEFAULT_TAXITYPE" gap="2.51"/>
+    <instantOut id="e1i_0" time="143.00" state="stay" vehID="f_0.4" speed="6.81" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="143.50" state="leave" vehID="f_0.4" speed="8.67" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="148.39" state="enter" vehID="f_0.5" speed="8.06" length="5.00" type="DEFAULT_TAXITYPE" gap="4.89"/>
+    <instantOut id="e1i_0" time="149.00" state="stay" vehID="f_0.5" speed="8.06" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="149.01" state="leave" vehID="f_0.5" speed="9.53" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="152.01" state="enter" vehID="f_0.6" speed="8.24" length="5.00" type="DEFAULT_TAXITYPE" gap="3.00"/>
+    <instantOut id="e1i_0" time="152.62" state="leave" vehID="f_0.6" speed="8.24" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="154.83" state="enter" vehID="f_0.7" speed="7.05" length="5.00" type="DEFAULT_TAXITYPE" gap="2.22"/>
+    <instantOut id="e1i_0" time="155.00" state="stay" vehID="f_0.7" speed="7.05" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="155.44" state="leave" vehID="f_0.7" speed="8.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="158.62" state="enter" vehID="f_0.8" speed="7.28" length="5.00" type="DEFAULT_TAXITYPE" gap="3.18"/>
+    <instantOut id="e1i_0" time="159.00" state="stay" vehID="f_0.8" speed="7.28" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="159.24" state="leave" vehID="f_0.8" speed="9.48" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="161.84" state="enter" vehID="f_0.9" speed="6.50" length="5.00" type="DEFAULT_TAXITYPE" gap="2.60"/>
+    <instantOut id="e1i_0" time="162.00" state="stay" vehID="f_0.9" speed="6.50" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="162.44" state="leave" vehID="f_0.9" speed="8.93" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="164.39" state="enter" vehID="f_0.13" speed="4.99" length="5.00" type="DEFAULT_TAXITYPE" gap="1.95"/>
+    <instantOut id="e1i_0" time="165.00" state="stay" vehID="f_0.13" speed="4.99" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="165.29" state="leave" vehID="f_0.13" speed="6.89" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.89"/>
+    <instantOut id="e1i_0" time="167.04" state="enter" vehID="f_0.14" speed="6.26" length="5.00" type="DEFAULT_TAXITYPE" gap="1.76"/>
+    <instantOut id="e1i_0" time="167.84" state="leave" vehID="f_0.14" speed="6.26" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.80"/>
+    <instantOut id="e1i_0" time="172.48" state="enter" vehID="f_0.15" speed="5.40" length="5.00" type="DEFAULT_TAXITYPE" gap="4.63"/>
+    <instantOut id="e1i_0" time="173.00" state="stay" vehID="f_0.15" speed="5.40" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="173.31" state="leave" vehID="f_0.15" speed="7.12" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="174.97" state="enter" vehID="f_0.16" speed="4.72" length="5.00" type="DEFAULT_TAXITYPE" gap="1.66"/>
+    <instantOut id="e1i_0" time="175.00" state="stay" vehID="f_0.16" speed="4.72" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="175.80" state="leave" vehID="f_0.16" speed="6.06" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="178.23" state="enter" vehID="f_0.17" speed="5.74" length="5.00" type="DEFAULT_TAXITYPE" gap="2.43"/>
+    <instantOut id="e1i_0" time="179.00" state="stay" vehID="f_0.17" speed="5.74" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="179.08" state="leave" vehID="f_0.17" speed="7.14" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="182.39" state="enter" vehID="f_0.18" speed="5.15" length="5.00" type="DEFAULT_TAXITYPE" gap="3.31"/>
+    <instantOut id="e1i_0" time="183.00" state="stay" vehID="f_0.18" speed="5.15" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="183.25" state="leave" vehID="f_0.18" speed="7.44" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="193.23" state="enter" vehID="f_0.19" speed="6.26" length="5.00" type="DEFAULT_TAXITYPE" gap="9.98"/>
+    <instantOut id="e1i_0" time="194.00" state="stay" vehID="f_0.19" speed="6.26" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="194.02" state="leave" vehID="f_0.19" speed="8.25" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.79"/>
+    <instantOut id="e1i_0" time="202.28" state="enter" vehID="f_0.20" speed="5.88" length="5.00" type="DEFAULT_TAXITYPE" gap="8.26"/>
+    <instantOut id="e1i_0" time="203.00" state="stay" vehID="f_0.20" speed="5.88" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="203.09" state="leave" vehID="f_0.20" speed="8.15" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.81"/>
+    <instantOut id="e1i_0" time="212.14" state="enter" vehID="f_0.21" speed="6.70" length="5.00" type="DEFAULT_TAXITYPE" gap="9.05"/>
+    <instantOut id="e1i_0" time="212.89" state="leave" vehID="f_0.21" speed="6.70" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.75"/>
+    <instantOut id="e1i_0" time="221.70" state="enter" vehID="f_0.10" speed="7.97" length="5.00" type="DEFAULT_TAXITYPE" gap="8.81"/>
+    <instantOut id="e1i_0" time="222.00" state="stay" vehID="f_0.10" speed="7.97" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="222.25" state="leave" vehID="f_0.10" speed="10.50" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="226.76" state="enter" vehID="f_0.11" speed="6.82" length="5.00" type="DEFAULT_TAXITYPE" gap="4.52"/>
+    <instantOut id="e1i_0" time="227.00" state="stay" vehID="f_0.11" speed="6.82" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="227.36" state="leave" vehID="f_0.11" speed="9.24" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="230.70" state="enter" vehID="f_0.12" speed="7.56" length="5.00" type="DEFAULT_TAXITYPE" gap="3.33"/>
+    <instantOut id="e1i_0" time="231.00" state="stay" vehID="f_0.12" speed="7.56" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="231.27" state="leave" vehID="f_0.12" speed="9.95" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="233.94" state="enter" vehID="f_0.13" speed="7.48" length="5.00" type="DEFAULT_TAXITYPE" gap="2.67"/>
+    <instantOut id="e1i_0" time="234.00" state="stay" vehID="f_0.13" speed="7.48" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="234.51" state="leave" vehID="f_0.13" speed="8.87" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="237.58" state="enter" vehID="f_0.14" speed="7.12" length="5.00" type="DEFAULT_TAXITYPE" gap="3.06"/>
+    <instantOut id="e1i_0" time="238.00" state="stay" vehID="f_0.14" speed="7.12" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="238.23" state="leave" vehID="f_0.14" speed="8.65" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="240.80" state="enter" vehID="f_0.15" speed="7.82" length="5.00" type="DEFAULT_TAXITYPE" gap="2.57"/>
+    <instantOut id="e1i_0" time="241.00" state="stay" vehID="f_0.15" speed="7.82" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="241.34" state="leave" vehID="f_0.15" speed="9.94" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="244.86" state="enter" vehID="f_0.16" speed="7.00" length="5.00" type="DEFAULT_TAXITYPE" gap="3.52"/>
+    <instantOut id="e1i_0" time="245.00" state="stay" vehID="f_0.16" speed="7.00" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="245.46" state="leave" vehID="f_0.16" speed="8.85" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.59"/>
+    <instantOut id="e1i_0" time="248.99" state="enter" vehID="f_0.17" speed="6.78" length="5.00" type="DEFAULT_TAXITYPE" gap="3.54"/>
+    <instantOut id="e1i_0" time="249.00" state="stay" vehID="f_0.17" speed="6.78" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="249.56" state="leave" vehID="f_0.17" speed="8.78" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="252.60" state="enter" vehID="f_0.18" speed="7.16" length="5.00" type="DEFAULT_TAXITYPE" gap="3.04"/>
+    <instantOut id="e1i_0" time="253.00" state="stay" vehID="f_0.18" speed="7.16" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="253.24" state="leave" vehID="f_0.18" speed="8.95" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.64"/>
+    <instantOut id="e1i_0" time="255.46" state="enter" vehID="f_0.22" speed="4.93" length="5.00" type="DEFAULT_TAXITYPE" gap="2.22"/>
+    <instantOut id="e1i_0" time="256.00" state="stay" vehID="f_0.22" speed="4.93" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="256.36" state="leave" vehID="f_0.22" speed="6.47" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.90"/>
+    <instantOut id="e1i_0" time="258.19" state="enter" vehID="f_0.23" speed="6.27" length="5.00" type="DEFAULT_TAXITYPE" gap="1.83"/>
+    <instantOut id="e1i_0" time="258.99" state="leave" vehID="f_0.23" speed="6.27" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.80"/>
+    <instantOut id="e1i_0" time="262.02" state="enter" vehID="f_0.24" speed="5.81" length="5.00" type="DEFAULT_TAXITYPE" gap="3.03"/>
+    <instantOut id="e1i_0" time="262.88" state="leave" vehID="f_0.24" speed="5.81" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="268.18" state="enter" vehID="f_0.25" speed="6.04" length="5.00" type="DEFAULT_TAXITYPE" gap="5.29"/>
+    <instantOut id="e1i_0" time="269.00" state="stay" vehID="f_0.25" speed="6.04" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="269.01" state="leave" vehID="f_0.25" speed="7.78" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="273.22" state="enter" vehID="f_0.26" speed="5.71" length="5.00" type="DEFAULT_TAXITYPE" gap="4.21"/>
+    <instantOut id="e1i_0" time="274.00" state="stay" vehID="f_0.26" speed="5.71" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="274.06" state="leave" vehID="f_0.26" speed="8.29" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="278.42" state="enter" vehID="f_0.27" speed="4.77" length="5.00" type="DEFAULT_TAXITYPE" gap="4.36"/>
+    <instantOut id="e1i_0" time="279.00" state="stay" vehID="f_0.27" speed="4.77" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="279.35" state="leave" vehID="f_0.27" speed="6.46" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.93"/>
+    <instantOut id="e1i_0" time="282.25" state="enter" vehID="f_0.28" speed="5.47" length="5.00" type="DEFAULT_TAXITYPE" gap="2.91"/>
+    <instantOut id="e1i_0" time="283.00" state="stay" vehID="f_0.28" speed="5.47" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="283.14" state="leave" vehID="f_0.28" speed="6.84" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="292.10" state="enter" vehID="f_0.29" speed="5.26" length="5.00" type="DEFAULT_TAXITYPE" gap="8.96"/>
+    <instantOut id="e1i_0" time="293.00" state="stay" vehID="f_0.29" speed="5.26" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="293.04" state="leave" vehID="f_0.29" speed="6.70" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.94"/>
+    <instantOut id="e1i_0" time="301.94" state="enter" vehID="f_0.30" speed="4.70" length="5.00" type="DEFAULT_TAXITYPE" gap="8.90"/>
+    <instantOut id="e1i_0" time="302.00" state="stay" vehID="f_0.30" speed="4.70" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="302.76" state="leave" vehID="f_0.30" speed="6.20" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.82"/>
+    <instantOut id="e1i_0" time="310.70" state="enter" vehID="f_0.19" speed="7.64" length="5.00" type="DEFAULT_TAXITYPE" gap="7.94"/>
+    <instantOut id="e1i_0" time="311.00" state="stay" vehID="f_0.19" speed="7.64" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="311.29" state="leave" vehID="f_0.19" speed="9.41" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.59"/>
+    <instantOut id="e1i_0" time="315.37" state="enter" vehID="f_0.20" speed="7.89" length="5.00" type="DEFAULT_TAXITYPE" gap="4.09"/>
+    <instantOut id="e1i_0" time="316.00" state="stay" vehID="f_0.20" speed="7.89" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="316.01" state="leave" vehID="f_0.20" speed="10.22" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.63"/>
+    <instantOut id="e1i_0" time="319.74" state="enter" vehID="f_0.21" speed="6.90" length="5.00" type="DEFAULT_TAXITYPE" gap="3.74"/>
+    <instantOut id="e1i_0" time="320.00" state="stay" vehID="f_0.21" speed="6.90" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="320.35" state="leave" vehID="f_0.21" speed="9.24" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="323.03" state="enter" vehID="f_0.22" speed="8.42" length="5.00" type="DEFAULT_TAXITYPE" gap="2.68"/>
+    <instantOut id="e1i_0" time="323.62" state="leave" vehID="f_0.22" speed="8.42" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.59"/>
+    <instantOut id="e1i_0" time="326.75" state="enter" vehID="f_0.23" speed="6.79" length="5.00" type="DEFAULT_TAXITYPE" gap="3.13"/>
+    <instantOut id="e1i_0" time="327.00" state="stay" vehID="f_0.23" speed="6.79" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="327.36" state="leave" vehID="f_0.23" speed="9.36" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="330.96" state="enter" vehID="f_0.24" speed="7.03" length="5.00" type="DEFAULT_TAXITYPE" gap="3.60"/>
+    <instantOut id="e1i_0" time="331.00" state="stay" vehID="f_0.24" speed="7.03" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="331.50" state="leave" vehID="f_0.24" speed="9.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="334.71" state="enter" vehID="f_0.25" speed="7.92" length="5.00" type="DEFAULT_TAXITYPE" gap="3.21"/>
+    <instantOut id="e1i_0" time="335.00" state="stay" vehID="f_0.25" speed="7.92" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="335.27" state="leave" vehID="f_0.25" speed="9.93" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.56"/>
+    <instantOut id="e1i_0" time="338.48" state="enter" vehID="f_0.26" speed="7.43" length="5.00" type="DEFAULT_TAXITYPE" gap="3.21"/>
+    <instantOut id="e1i_0" time="339.00" state="stay" vehID="f_0.26" speed="7.43" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="339.13" state="leave" vehID="f_0.26" speed="8.88" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="342.20" state="enter" vehID="f_0.27" speed="7.46" length="5.00" type="DEFAULT_TAXITYPE" gap="3.07"/>
+    <instantOut id="e1i_0" time="342.87" state="leave" vehID="f_0.27" speed="7.46" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.67"/>
+    <instantOut id="e1i_0" time="345.36" state="enter" vehID="f_0.31" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE" gap="2.48"/>
+    <instantOut id="e1i_0" time="346.00" state="stay" vehID="f_0.31" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="346.16" state="leave" vehID="f_0.31" speed="8.11" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.80"/>
+    <instantOut id="e1i_0" time="348.21" state="enter" vehID="f_0.32" speed="5.77" length="5.00" type="DEFAULT_TAXITYPE" gap="2.05"/>
+    <instantOut id="e1i_0" time="349.00" state="stay" vehID="f_0.32" speed="5.77" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="349.05" state="leave" vehID="f_0.32" speed="8.21" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="354.17" state="enter" vehID="f_0.33" speed="5.21" length="5.00" type="DEFAULT_TAXITYPE" gap="5.12"/>
+    <instantOut id="e1i_0" time="355.00" state="stay" vehID="f_0.33" speed="5.21" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="355.10" state="leave" vehID="f_0.33" speed="6.90" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.93"/>
+    <instantOut id="e1i_0" time="357.53" state="enter" vehID="f_0.34" speed="5.26" length="5.00" type="DEFAULT_TAXITYPE" gap="2.44"/>
+    <instantOut id="e1i_0" time="358.00" state="stay" vehID="f_0.34" speed="5.26" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="358.38" state="leave" vehID="f_0.34" speed="6.78" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="360.22" state="enter" vehID="f_0.35" speed="5.90" length="5.00" type="DEFAULT_TAXITYPE" gap="1.85"/>
+    <instantOut id="e1i_0" time="361.00" state="stay" vehID="f_0.35" speed="5.90" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="361.05" state="leave" vehID="f_0.35" speed="8.10" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="367.65" state="enter" vehID="f_0.36" speed="4.32" length="5.00" type="DEFAULT_TAXITYPE" gap="6.60"/>
+    <instantOut id="e1i_0" time="368.00" state="stay" vehID="f_0.36" speed="4.32" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="368.55" state="leave" vehID="f_0.36" speed="6.34" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.90"/>
+    <instantOut id="e1i_0" time="372.01" state="enter" vehID="f_0.37" speed="5.99" length="5.00" type="DEFAULT_TAXITYPE" gap="3.46"/>
+    <instantOut id="e1i_0" time="372.84" state="leave" vehID="f_0.37" speed="5.99" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="382.26" state="enter" vehID="f_0.38" speed="5.76" length="5.00" type="DEFAULT_TAXITYPE" gap="9.42"/>
+    <instantOut id="e1i_0" time="383.00" state="stay" vehID="f_0.38" speed="5.76" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="383.10" state="leave" vehID="f_0.38" speed="7.41" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="392.56" state="enter" vehID="f_0.39" speed="4.64" length="5.00" type="DEFAULT_TAXITYPE" gap="9.46"/>
+    <instantOut id="e1i_0" time="393.00" state="stay" vehID="f_0.39" speed="4.64" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="393.42" state="leave" vehID="f_0.39" speed="7.00" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="403.28" state="enter" vehID="f_0.28" speed="8.66" length="5.00" type="DEFAULT_TAXITYPE" gap="9.85"/>
+    <instantOut id="e1i_0" time="403.85" state="leave" vehID="f_0.28" speed="8.66" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="407.15" state="enter" vehID="f_0.29" speed="8.08" length="5.00" type="DEFAULT_TAXITYPE" gap="3.30"/>
+    <instantOut id="e1i_0" time="407.77" state="leave" vehID="f_0.29" speed="8.08" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="409.71" state="enter" vehID="f_0.30" speed="7.58" length="5.00" type="DEFAULT_TAXITYPE" gap="1.94"/>
+    <instantOut id="e1i_0" time="410.00" state="stay" vehID="f_0.30" speed="7.58" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="410.29" state="leave" vehID="f_0.30" speed="9.73" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="413.37" state="enter" vehID="f_0.31" speed="7.57" length="5.00" type="DEFAULT_TAXITYPE" gap="3.08"/>
+    <instantOut id="e1i_0" time="414.00" state="stay" vehID="f_0.31" speed="7.57" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="414.02" state="leave" vehID="f_0.31" speed="10.03" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="416.57" state="enter" vehID="f_0.32" speed="7.92" length="5.00" type="DEFAULT_TAXITYPE" gap="2.55"/>
+    <instantOut id="e1i_0" time="417.00" state="stay" vehID="f_0.32" speed="7.92" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="417.17" state="leave" vehID="f_0.32" speed="9.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.59"/>
+    <instantOut id="e1i_0" time="419.85" state="enter" vehID="f_0.33" speed="7.88" length="5.00" type="DEFAULT_TAXITYPE" gap="2.68"/>
+    <instantOut id="e1i_0" time="420.00" state="stay" vehID="f_0.33" speed="7.88" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="420.39" state="leave" vehID="f_0.33" speed="9.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="422.74" state="enter" vehID="f_0.34" speed="7.83" length="5.00" type="DEFAULT_TAXITYPE" gap="2.35"/>
+    <instantOut id="e1i_0" time="423.00" state="stay" vehID="f_0.34" speed="7.83" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="423.29" state="leave" vehID="f_0.34" speed="10.04" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.56"/>
+    <instantOut id="e1i_0" time="426.06" state="enter" vehID="f_0.35" speed="8.20" length="5.00" type="DEFAULT_TAXITYPE" gap="2.77"/>
+    <instantOut id="e1i_0" time="426.67" state="leave" vehID="f_0.35" speed="8.20" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="429.43" state="enter" vehID="f_0.36" speed="7.99" length="5.00" type="DEFAULT_TAXITYPE" gap="2.76"/>
+    <instantOut id="e1i_0" time="430.00" state="stay" vehID="f_0.36" speed="7.99" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="430.05" state="leave" vehID="f_0.36" speed="9.98" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="432.12" state="enter" vehID="f_0.40" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE" gap="2.07"/>
+    <instantOut id="e1i_0" time="432.98" state="leave" vehID="f_0.40" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="435.09" state="enter" vehID="f_0.41" speed="6.35" length="5.00" type="DEFAULT_TAXITYPE" gap="2.11"/>
+    <instantOut id="e1i_0" time="435.88" state="leave" vehID="f_0.41" speed="6.35" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.79"/>
+    <instantOut id="e1i_0" time="438.26" state="enter" vehID="f_0.42" speed="5.63" length="5.00" type="DEFAULT_TAXITYPE" gap="2.38"/>
+    <instantOut id="e1i_0" time="439.00" state="stay" vehID="f_0.42" speed="5.63" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="439.12" state="leave" vehID="f_0.42" speed="7.27" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="442.45" state="enter" vehID="f_0.43" speed="5.52" length="5.00" type="DEFAULT_TAXITYPE" gap="3.34"/>
+    <instantOut id="e1i_0" time="443.00" state="stay" vehID="f_0.43" speed="5.52" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="443.28" state="leave" vehID="f_0.43" speed="7.06" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="444.97" state="enter" vehID="f_0.44" speed="4.55" length="5.00" type="DEFAULT_TAXITYPE" gap="1.69"/>
+    <instantOut id="e1i_0" time="445.00" state="stay" vehID="f_0.44" speed="4.55" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="445.74" state="leave" vehID="f_0.44" speed="6.61" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.76"/>
+    <instantOut id="e1i_0" time="453.14" state="enter" vehID="f_0.45" speed="5.54" length="5.00" type="DEFAULT_TAXITYPE" gap="7.41"/>
+    <instantOut id="e1i_0" time="454.00" state="stay" vehID="f_0.45" speed="5.54" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="454.03" state="leave" vehID="f_0.45" speed="7.43" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.89"/>
+    <instantOut id="e1i_0" time="462.27" state="enter" vehID="f_0.46" speed="5.64" length="5.00" type="DEFAULT_TAXITYPE" gap="8.23"/>
+    <instantOut id="e1i_0" time="463.00" state="stay" vehID="f_0.46" speed="5.64" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="463.11" state="leave" vehID="f_0.46" speed="8.12" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="472.29" state="enter" vehID="f_0.47" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE" gap="9.18"/>
+    <instantOut id="e1i_0" time="473.00" state="stay" vehID="f_0.47" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="473.11" state="leave" vehID="f_0.47" speed="7.65" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="482.29" state="enter" vehID="f_0.48" speed="5.43" length="5.00" type="DEFAULT_TAXITYPE" gap="9.18"/>
+    <instantOut id="e1i_0" time="483.00" state="stay" vehID="f_0.48" speed="5.43" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="483.16" state="leave" vehID="f_0.48" speed="7.40" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="492.76" state="enter" vehID="f_0.37" speed="7.87" length="5.00" type="DEFAULT_TAXITYPE" gap="9.60"/>
+    <instantOut id="e1i_0" time="493.00" state="stay" vehID="f_0.37" speed="7.87" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="493.32" state="leave" vehID="f_0.37" speed="9.84" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.56"/>
+    <instantOut id="e1i_0" time="496.62" state="enter" vehID="f_0.38" speed="7.09" length="5.00" type="DEFAULT_TAXITYPE" gap="3.30"/>
+    <instantOut id="e1i_0" time="497.00" state="stay" vehID="f_0.38" speed="7.09" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="497.25" state="leave" vehID="f_0.38" speed="9.00" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.64"/>
+    <instantOut id="e1i_0" time="501.93" state="enter" vehID="f_0.39" speed="6.20" length="5.00" type="DEFAULT_TAXITYPE" gap="4.68"/>
+    <instantOut id="e1i_0" time="502.00" state="stay" vehID="f_0.39" speed="6.20" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="502.55" state="leave" vehID="f_0.39" speed="8.27" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="505.67" state="enter" vehID="f_0.40" speed="7.77" length="5.00" type="DEFAULT_TAXITYPE" gap="3.12"/>
+    <instantOut id="e1i_0" time="506.00" state="stay" vehID="f_0.40" speed="7.77" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="506.26" state="leave" vehID="f_0.40" speed="9.58" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="509.76" state="enter" vehID="f_0.41" speed="7.12" length="5.00" type="DEFAULT_TAXITYPE" gap="3.50"/>
+    <instantOut id="e1i_0" time="510.00" state="stay" vehID="f_0.41" speed="7.12" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="510.36" state="leave" vehID="f_0.41" speed="9.09" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="512.65" state="enter" vehID="f_0.42" speed="8.11" length="5.00" type="DEFAULT_TAXITYPE" gap="2.29"/>
+    <instantOut id="e1i_0" time="513.00" state="stay" vehID="f_0.42" speed="8.11" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="513.22" state="leave" vehID="f_0.42" speed="10.12" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.56"/>
+    <instantOut id="e1i_0" time="516.70" state="enter" vehID="f_0.43" speed="6.24" length="5.00" type="DEFAULT_TAXITYPE" gap="3.49"/>
+    <instantOut id="e1i_0" time="517.00" state="stay" vehID="f_0.43" speed="6.24" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="517.38" state="leave" vehID="f_0.43" speed="8.21" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.68"/>
+    <instantOut id="e1i_0" time="519.52" state="enter" vehID="f_0.44" speed="8.57" length="5.00" type="DEFAULT_TAXITYPE" gap="2.14"/>
+    <instantOut id="e1i_0" time="520.00" state="stay" vehID="f_0.44" speed="8.57" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="520.09" state="leave" vehID="f_0.44" speed="10.16" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="523.15" state="enter" vehID="f_0.45" speed="7.71" length="5.00" type="DEFAULT_TAXITYPE" gap="3.06"/>
+    <instantOut id="e1i_0" time="523.80" state="leave" vehID="f_0.45" speed="7.71" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="526.16" state="enter" vehID="f_0.49" speed="5.47" length="5.00" type="DEFAULT_TAXITYPE" gap="2.36"/>
+    <instantOut id="e1i_0" time="527.00" state="stay" vehID="f_0.49" speed="5.47" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="527.06" state="leave" vehID="f_0.49" speed="6.98" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.90"/>
+    <instantOut id="e1i_0" time="531.18" state="enter" vehID="f_0.50" speed="6.19" length="5.00" type="DEFAULT_TAXITYPE" gap="4.12"/>
+    <instantOut id="e1i_0" time="531.99" state="leave" vehID="f_0.50" speed="6.19" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.81"/>
+    <instantOut id="e1i_0" time="536.18" state="enter" vehID="f_0.51" speed="6.54" length="5.00" type="DEFAULT_TAXITYPE" gap="4.19"/>
+    <instantOut id="e1i_0" time="536.94" state="leave" vehID="f_0.51" speed="6.54" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.76"/>
+    <instantOut id="e1i_0" time="542.25" state="enter" vehID="f_0.52" speed="5.29" length="5.00" type="DEFAULT_TAXITYPE" gap="5.31"/>
+    <instantOut id="e1i_0" time="543.00" state="stay" vehID="f_0.52" speed="5.29" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="543.14" state="leave" vehID="f_0.52" speed="7.72" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="546.01" state="enter" vehID="f_0.53" speed="6.68" length="5.00" type="DEFAULT_TAXITYPE" gap="2.87"/>
+    <instantOut id="e1i_0" time="546.76" state="leave" vehID="f_0.53" speed="6.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.75"/>
+    <instantOut id="e1i_0" time="550.00" state="enter" vehID="f_0.54" speed="6.45" length="5.00" type="DEFAULT_TAXITYPE" gap="3.25"/>
+    <instantOut id="e1i_0" time="550.78" state="leave" vehID="f_0.54" speed="6.45" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.77"/>
+    <instantOut id="e1i_0" time="553.02" state="enter" vehID="f_0.55" speed="5.96" length="5.00" type="DEFAULT_TAXITYPE" gap="2.25"/>
+    <instantOut id="e1i_0" time="553.86" state="leave" vehID="f_0.55" speed="5.96" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.84"/>
+    <instantOut id="e1i_0" time="562.21" state="enter" vehID="f_0.56" speed="5.71" length="5.00" type="DEFAULT_TAXITYPE" gap="8.35"/>
+    <instantOut id="e1i_0" time="563.00" state="stay" vehID="f_0.56" speed="5.71" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="563.07" state="leave" vehID="f_0.56" speed="7.58" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="572.12" state="enter" vehID="f_0.57" speed="5.70" length="5.00" type="DEFAULT_TAXITYPE" gap="9.06"/>
+    <instantOut id="e1i_0" time="573.00" state="stay" vehID="f_0.57" speed="5.70" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="573.00" state="leave" vehID="f_0.57" speed="8.26" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="581.97" state="enter" vehID="f_0.46" speed="7.02" length="5.00" type="DEFAULT_TAXITYPE" gap="8.97"/>
+    <instantOut id="e1i_0" time="582.00" state="stay" vehID="f_0.46" speed="7.02" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="582.57" state="leave" vehID="f_0.46" speed="8.33" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="587.17" state="enter" vehID="f_0.47" speed="7.40" length="5.00" type="DEFAULT_TAXITYPE" gap="4.60"/>
+    <instantOut id="e1i_0" time="587.85" state="leave" vehID="f_0.47" speed="7.40" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.68"/>
+    <instantOut id="e1i_0" time="591.63" state="enter" vehID="f_0.48" speed="7.38" length="5.00" type="DEFAULT_TAXITYPE" gap="3.78"/>
+    <instantOut id="e1i_0" time="592.00" state="stay" vehID="f_0.48" speed="7.38" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="592.24" state="leave" vehID="f_0.48" speed="9.51" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="595.43" state="enter" vehID="f_0.49" speed="7.94" length="5.00" type="DEFAULT_TAXITYPE" gap="3.19"/>
+    <instantOut id="e1i_0" time="596.00" state="stay" vehID="f_0.49" speed="7.94" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="596.05" state="leave" vehID="f_0.49" speed="9.95" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="599.69" state="enter" vehID="f_0.50" speed="7.05" length="5.00" type="DEFAULT_TAXITYPE" gap="3.64"/>
+    <instantOut id="e1i_0" time="600.00" state="stay" vehID="f_0.50" speed="7.05" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="600.32" state="leave" vehID="f_0.50" speed="8.78" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.63"/>
+    <instantOut id="e1i_0" time="602.64" state="enter" vehID="f_0.51" speed="8.69" length="5.00" type="DEFAULT_TAXITYPE" gap="2.32"/>
+    <instantOut id="e1i_0" time="603.00" state="stay" vehID="f_0.51" speed="8.69" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="603.19" state="leave" vehID="f_0.51" speed="10.05" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="606.35" state="enter" vehID="f_0.52" speed="7.92" length="5.00" type="DEFAULT_TAXITYPE" gap="3.16"/>
+    <instantOut id="e1i_0" time="606.98" state="leave" vehID="f_0.52" speed="7.92" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.63"/>
+    <instantOut id="e1i_0" time="610.06" state="enter" vehID="f_0.53" speed="8.38" length="5.00" type="DEFAULT_TAXITYPE" gap="3.08"/>
+    <instantOut id="e1i_0" time="610.65" state="leave" vehID="f_0.53" speed="8.38" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="613.06" state="enter" vehID="f_0.58" speed="6.20" length="5.00" type="DEFAULT_TAXITYPE" gap="2.40"/>
+    <instantOut id="e1i_0" time="613.86" state="leave" vehID="f_0.58" speed="6.20" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.81"/>
+    <instantOut id="e1i_0" time="616.05" state="enter" vehID="f_0.59" speed="6.18" length="5.00" type="DEFAULT_TAXITYPE" gap="2.19"/>
+    <instantOut id="e1i_0" time="616.86" state="leave" vehID="f_0.59" speed="6.18" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.81"/>
+    <instantOut id="e1i_0" time="619.08" state="enter" vehID="f_0.60" speed="5.78" length="5.00" type="DEFAULT_TAXITYPE" gap="2.22"/>
+    <instantOut id="e1i_0" time="619.94" state="leave" vehID="f_0.60" speed="5.78" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="622.30" state="enter" vehID="f_0.61" speed="5.07" length="5.00" type="DEFAULT_TAXITYPE" gap="2.36"/>
+    <instantOut id="e1i_0" time="623.00" state="stay" vehID="f_0.61" speed="5.07" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="623.20" state="leave" vehID="f_0.61" speed="7.23" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.90"/>
+    <instantOut id="e1i_0" time="627.29" state="enter" vehID="f_0.62" speed="6.15" length="5.00" type="DEFAULT_TAXITYPE" gap="4.08"/>
+    <instantOut id="e1i_0" time="628.00" state="stay" vehID="f_0.62" speed="6.15" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="628.08" state="leave" vehID="f_0.62" speed="8.11" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.79"/>
+    <instantOut id="e1i_0" time="632.04" state="enter" vehID="f_0.63" speed="6.08" length="5.00" type="DEFAULT_TAXITYPE" gap="3.97"/>
+    <instantOut id="e1i_0" time="632.86" state="leave" vehID="f_0.63" speed="6.08" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.82"/>
+    <instantOut id="e1i_0" time="642.36" state="enter" vehID="f_0.64" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE" gap="9.49"/>
+    <instantOut id="e1i_0" time="643.00" state="stay" vehID="f_0.64" speed="5.80" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="643.16" state="leave" vehID="f_0.64" speed="7.97" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.80"/>
+    <instantOut id="e1i_0" time="652.46" state="enter" vehID="f_0.65" speed="5.45" length="5.00" type="DEFAULT_TAXITYPE" gap="9.31"/>
+    <instantOut id="e1i_0" time="653.00" state="stay" vehID="f_0.65" speed="5.45" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="653.28" state="leave" vehID="f_0.65" speed="7.51" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.81"/>
+    <instantOut id="e1i_0" time="661.95" state="enter" vehID="f_0.66" speed="4.87" length="5.00" type="DEFAULT_TAXITYPE" gap="8.67"/>
+    <instantOut id="e1i_0" time="662.00" state="stay" vehID="f_0.66" speed="4.87" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="662.75" state="leave" vehID="f_0.66" speed="6.36" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.80"/>
+    <instantOut id="e1i_0" time="672.03" state="enter" vehID="f_0.54" speed="8.56" length="5.00" type="DEFAULT_TAXITYPE" gap="9.28"/>
+    <instantOut id="e1i_0" time="672.61" state="leave" vehID="f_0.54" speed="8.56" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="676.59" state="enter" vehID="f_0.55" speed="7.51" length="5.00" type="DEFAULT_TAXITYPE" gap="3.98"/>
+    <instantOut id="e1i_0" time="677.00" state="stay" vehID="f_0.55" speed="7.51" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="677.21" state="leave" vehID="f_0.55" speed="9.39" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="681.16" state="enter" vehID="f_0.56" speed="8.89" length="5.00" type="DEFAULT_TAXITYPE" gap="3.95"/>
+    <instantOut id="e1i_0" time="681.72" state="leave" vehID="f_0.56" speed="8.89" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.56"/>
+    <instantOut id="e1i_0" time="684.82" state="enter" vehID="f_0.57" speed="6.88" length="5.00" type="DEFAULT_TAXITYPE" gap="3.10"/>
+    <instantOut id="e1i_0" time="685.00" state="stay" vehID="f_0.57" speed="6.88" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="685.42" state="leave" vehID="f_0.57" speed="8.89" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="687.59" state="enter" vehID="f_0.58" speed="8.06" length="5.00" type="DEFAULT_TAXITYPE" gap="2.17"/>
+    <instantOut id="e1i_0" time="688.00" state="stay" vehID="f_0.58" speed="8.06" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="688.16" state="leave" vehID="f_0.58" speed="10.61" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="691.47" state="enter" vehID="f_0.59" speed="7.70" length="5.00" type="DEFAULT_TAXITYPE" gap="3.31"/>
+    <instantOut id="e1i_0" time="692.00" state="stay" vehID="f_0.59" speed="7.70" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="692.09" state="leave" vehID="f_0.59" speed="9.67" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.63"/>
+    <instantOut id="e1i_0" time="694.64" state="enter" vehID="f_0.60" speed="8.58" length="5.00" type="DEFAULT_TAXITYPE" gap="2.55"/>
+    <instantOut id="e1i_0" time="695.00" state="stay" vehID="f_0.60" speed="8.58" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="695.18" state="leave" vehID="f_0.60" speed="10.53" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.54"/>
+    <instantOut id="e1i_0" time="698.37" state="enter" vehID="f_0.61" speed="7.41" length="5.00" type="DEFAULT_TAXITYPE" gap="3.19"/>
+    <instantOut id="e1i_0" time="699.00" state="stay" vehID="f_0.61" speed="7.41" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="699.04" state="leave" vehID="f_0.61" speed="9.61" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.66"/>
+    <instantOut id="e1i_0" time="701.72" state="enter" vehID="f_0.62" speed="7.15" length="5.00" type="DEFAULT_TAXITYPE" gap="2.69"/>
+    <instantOut id="e1i_0" time="702.00" state="stay" vehID="f_0.62" speed="7.15" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="702.36" state="leave" vehID="f_0.62" speed="8.49" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.63"/>
+    <instantOut id="e1i_0" time="705.71" state="enter" vehID="f_0.63" speed="6.35" length="5.00" type="DEFAULT_TAXITYPE" gap="3.36"/>
+    <instantOut id="e1i_0" time="706.00" state="stay" vehID="f_0.63" speed="6.35" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="706.36" state="leave" vehID="f_0.63" speed="8.75" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="708.05" state="enter" vehID="f_0.67" speed="6.64" length="5.00" type="DEFAULT_TAXITYPE" gap="1.69"/>
+    <instantOut id="e1i_0" time="708.80" state="leave" vehID="f_0.67" speed="6.64" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.75"/>
+    <instantOut id="e1i_0" time="712.21" state="enter" vehID="f_0.68" speed="6.32" length="5.00" type="DEFAULT_TAXITYPE" gap="3.41"/>
+    <instantOut id="e1i_0" time="713.00" state="leave" vehID="f_0.68" speed="6.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.79"/>
+    <instantOut id="e1i_0" time="719.31" state="enter" vehID="f_0.69" speed="5.56" length="5.00" type="DEFAULT_TAXITYPE" gap="6.31"/>
+    <instantOut id="e1i_0" time="720.00" state="stay" vehID="f_0.69" speed="5.56" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="720.17" state="leave" vehID="f_0.69" speed="6.95" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="727.23" state="enter" vehID="f_0.70" speed="5.65" length="5.00" type="DEFAULT_TAXITYPE" gap="7.06"/>
+    <instantOut id="e1i_0" time="728.00" state="stay" vehID="f_0.70" speed="5.65" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="728.08" state="leave" vehID="f_0.70" speed="8.12" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="732.11" state="enter" vehID="f_0.71" speed="5.81" length="5.00" type="DEFAULT_TAXITYPE" gap="4.03"/>
+    <instantOut id="e1i_0" time="732.97" state="leave" vehID="f_0.71" speed="5.81" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="735.02" state="enter" vehID="f_0.72" speed="7.24" length="5.00" type="DEFAULT_TAXITYPE" gap="2.05"/>
+    <instantOut id="e1i_0" time="735.71" state="leave" vehID="f_0.72" speed="7.24" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.69"/>
+    <instantOut id="e1i_0" time="738.10" state="enter" vehID="f_0.73" speed="5.61" length="5.00" type="DEFAULT_TAXITYPE" gap="2.39"/>
+    <instantOut id="e1i_0" time="738.99" state="leave" vehID="f_0.73" speed="5.61" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.89"/>
+    <instantOut id="e1i_0" time="741.97" state="enter" vehID="f_0.74" speed="4.72" length="5.00" type="DEFAULT_TAXITYPE" gap="2.98"/>
+    <instantOut id="e1i_0" time="742.00" state="stay" vehID="f_0.74" speed="4.72" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="742.72" state="leave" vehID="f_0.74" speed="6.73" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.75"/>
+    <instantOut id="e1i_0" time="752.06" state="enter" vehID="f_0.75" speed="6.67" length="5.00" type="DEFAULT_TAXITYPE" gap="9.34"/>
+    <instantOut id="e1i_0" time="752.81" state="leave" vehID="f_0.75" speed="6.67" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.75"/>
+    <instantOut id="e1i_0" time="764.04" state="enter" vehID="f_0.64" speed="9.56" length="5.00" type="DEFAULT_TAXITYPE" gap="11.22"/>
+    <instantOut id="e1i_0" time="764.56" state="leave" vehID="f_0.64" speed="9.56" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.52"/>
+    <instantOut id="e1i_0" time="768.68" state="enter" vehID="f_0.65" speed="6.65" length="5.00" type="DEFAULT_TAXITYPE" gap="4.12"/>
+    <instantOut id="e1i_0" time="769.00" state="stay" vehID="f_0.65" speed="6.65" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="769.36" state="leave" vehID="f_0.65" speed="7.97" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.68"/>
+    <instantOut id="e1i_0" time="772.03" state="enter" vehID="f_0.66" speed="8.63" length="5.00" type="DEFAULT_TAXITYPE" gap="2.68"/>
+    <instantOut id="e1i_0" time="772.61" state="leave" vehID="f_0.66" speed="8.63" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="775.69" state="enter" vehID="f_0.67" speed="7.18" length="5.00" type="DEFAULT_TAXITYPE" gap="3.08"/>
+    <instantOut id="e1i_0" time="776.00" state="stay" vehID="f_0.67" speed="7.18" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="776.30" state="leave" vehID="f_0.67" speed="9.19" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="778.80" state="enter" vehID="f_0.68" speed="7.57" length="5.00" type="DEFAULT_TAXITYPE" gap="2.50"/>
+    <instantOut id="e1i_0" time="779.00" state="stay" vehID="f_0.68" speed="7.57" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="779.35" state="leave" vehID="f_0.68" speed="10.12" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.54"/>
+    <instantOut id="e1i_0" time="781.67" state="enter" vehID="f_0.69" speed="8.08" length="5.00" type="DEFAULT_TAXITYPE" gap="2.33"/>
+    <instantOut id="e1i_0" time="782.00" state="stay" vehID="f_0.69" speed="8.08" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="782.23" state="leave" vehID="f_0.69" speed="10.19" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.56"/>
+    <instantOut id="e1i_0" time="785.64" state="enter" vehID="f_0.70" speed="6.90" length="5.00" type="DEFAULT_TAXITYPE" gap="3.41"/>
+    <instantOut id="e1i_0" time="786.00" state="stay" vehID="f_0.70" speed="6.90" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="786.29" state="leave" vehID="f_0.70" speed="8.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="788.43" state="enter" vehID="f_0.76" speed="5.30" length="5.00" type="DEFAULT_TAXITYPE" gap="2.14"/>
+    <instantOut id="e1i_0" time="789.00" state="stay" vehID="f_0.76" speed="5.30" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="789.27" state="leave" vehID="f_0.76" speed="7.20" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="791.11" state="enter" vehID="f_0.77" speed="5.79" length="5.00" type="DEFAULT_TAXITYPE" gap="1.83"/>
+    <instantOut id="e1i_0" time="791.97" state="leave" vehID="f_0.77" speed="5.79" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="793.98" state="enter" vehID="f_0.78" speed="4.64" length="5.00" type="DEFAULT_TAXITYPE" gap="2.02"/>
+    <instantOut id="e1i_0" time="794.00" state="stay" vehID="f_0.78" speed="4.64" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="794.70" state="leave" vehID="f_0.78" speed="7.00" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.72"/>
+    <instantOut id="e1i_0" time="797.19" state="enter" vehID="f_0.79" speed="6.33" length="5.00" type="DEFAULT_TAXITYPE" gap="2.49"/>
+    <instantOut id="e1i_0" time="797.98" state="leave" vehID="f_0.79" speed="6.33" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.79"/>
+    <instantOut id="e1i_0" time="804.19" state="enter" vehID="f_0.80" speed="5.96" length="5.00" type="DEFAULT_TAXITYPE" gap="6.21"/>
+    <instantOut id="e1i_0" time="805.00" state="stay" vehID="f_0.80" speed="5.96" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="805.02" state="leave" vehID="f_0.80" speed="8.46" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="812.56" state="enter" vehID="f_0.81" speed="5.10" length="5.00" type="DEFAULT_TAXITYPE" gap="7.54"/>
+    <instantOut id="e1i_0" time="813.00" state="stay" vehID="f_0.81" speed="5.10" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="813.39" state="leave" vehID="f_0.81" speed="7.11" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="823.05" state="enter" vehID="f_0.82" speed="6.93" length="5.00" type="DEFAULT_TAXITYPE" gap="9.66"/>
+    <instantOut id="e1i_0" time="823.77" state="leave" vehID="f_0.82" speed="6.93" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.72"/>
+    <instantOut id="e1i_0" time="832.20" state="enter" vehID="f_0.83" speed="5.79" length="5.00" type="DEFAULT_TAXITYPE" gap="8.43"/>
+    <instantOut id="e1i_0" time="833.00" state="stay" vehID="f_0.83" speed="5.79" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="833.05" state="leave" vehID="f_0.83" speed="7.73" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="842.35" state="enter" vehID="f_0.84" speed="5.52" length="5.00" type="DEFAULT_TAXITYPE" gap="9.30"/>
+    <instantOut id="e1i_0" time="843.00" state="stay" vehID="f_0.84" speed="5.52" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="843.20" state="leave" vehID="f_0.84" speed="7.06" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="853.67" state="enter" vehID="f_0.71" speed="6.93" length="5.00" type="DEFAULT_TAXITYPE" gap="10.47"/>
+    <instantOut id="e1i_0" time="854.00" state="stay" vehID="f_0.71" speed="6.93" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="854.31" state="leave" vehID="f_0.71" speed="8.72" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.64"/>
+    <instantOut id="e1i_0" time="858.37" state="enter" vehID="f_0.72" speed="8.01" length="5.00" type="DEFAULT_TAXITYPE" gap="4.06"/>
+    <instantOut id="e1i_0" time="858.99" state="leave" vehID="f_0.72" speed="8.01" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="862.01" state="enter" vehID="f_0.73" speed="8.32" length="5.00" type="DEFAULT_TAXITYPE" gap="3.02"/>
+    <instantOut id="e1i_0" time="862.61" state="leave" vehID="f_0.73" speed="8.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="866.10" state="enter" vehID="f_0.74" speed="8.27" length="5.00" type="DEFAULT_TAXITYPE" gap="3.49"/>
+    <instantOut id="e1i_0" time="866.71" state="leave" vehID="f_0.74" speed="8.27" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="868.63" state="enter" vehID="f_0.75" speed="8.85" length="5.00" type="DEFAULT_TAXITYPE" gap="1.92"/>
+    <instantOut id="e1i_0" time="869.00" state="stay" vehID="f_0.75" speed="8.85" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="869.15" state="leave" vehID="f_0.75" speed="11.44" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.52"/>
+    <instantOut id="e1i_0" time="871.87" state="enter" vehID="f_0.76" speed="7.41" length="5.00" type="DEFAULT_TAXITYPE" gap="2.72"/>
+    <instantOut id="e1i_0" time="872.00" state="stay" vehID="f_0.76" speed="7.41" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="872.41" state="leave" vehID="f_0.76" speed="9.80" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.54"/>
+    <instantOut id="e1i_0" time="874.71" state="enter" vehID="f_0.77" speed="8.13" length="5.00" type="DEFAULT_TAXITYPE" gap="2.30"/>
+    <instantOut id="e1i_0" time="875.00" state="stay" vehID="f_0.77" speed="8.13" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="875.26" state="leave" vehID="f_0.77" speed="10.34" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.54"/>
+    <instantOut id="e1i_0" time="878.70" state="enter" vehID="f_0.78" speed="6.89" length="5.00" type="DEFAULT_TAXITYPE" gap="3.44"/>
+    <instantOut id="e1i_0" time="879.00" state="stay" vehID="f_0.78" speed="6.89" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="879.32" state="leave" vehID="f_0.78" speed="9.20" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="881.49" state="enter" vehID="f_0.79" speed="8.43" length="5.00" type="DEFAULT_TAXITYPE" gap="2.17"/>
+    <instantOut id="e1i_0" time="882.00" state="stay" vehID="f_0.79" speed="8.43" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="882.07" state="leave" vehID="f_0.79" speed="9.96" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="885.20" state="enter" vehID="f_0.80" speed="7.59" length="5.00" type="DEFAULT_TAXITYPE" gap="3.13"/>
+    <instantOut id="e1i_0" time="885.86" state="leave" vehID="f_0.80" speed="7.59" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.66"/>
+    <instantOut id="e1i_0" time="888.58" state="enter" vehID="f_0.81" speed="7.86" length="5.00" type="DEFAULT_TAXITYPE" gap="2.72"/>
+    <instantOut id="e1i_0" time="889.00" state="stay" vehID="f_0.81" speed="7.86" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="889.17" state="leave" vehID="f_0.81" speed="10.06" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.59"/>
+    <instantOut id="e1i_0" time="892.34" state="enter" vehID="f_0.85" speed="5.06" length="5.00" type="DEFAULT_TAXITYPE" gap="3.17"/>
+    <instantOut id="e1i_0" time="893.00" state="stay" vehID="f_0.85" speed="5.06" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="893.22" state="leave" vehID="f_0.85" speed="7.64" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="896.89" state="enter" vehID="f_0.86" speed="4.98" length="5.00" type="DEFAULT_TAXITYPE" gap="3.67"/>
+    <instantOut id="e1i_0" time="897.00" state="stay" vehID="f_0.86" speed="4.98" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="897.70" state="leave" vehID="f_0.86" speed="6.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.82"/>
+    <instantOut id="e1i_0" time="902.24" state="enter" vehID="f_0.87" speed="5.48" length="5.00" type="DEFAULT_TAXITYPE" gap="4.54"/>
+    <instantOut id="e1i_0" time="903.00" state="stay" vehID="f_0.87" speed="5.48" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="903.13" state="leave" vehID="f_0.87" speed="6.86" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.88"/>
+    <instantOut id="e1i_0" time="905.08" state="enter" vehID="f_0.88" speed="6.78" length="5.00" type="DEFAULT_TAXITYPE" gap="1.96"/>
+    <instantOut id="e1i_0" time="905.82" state="leave" vehID="f_0.88" speed="6.78" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.74"/>
+    <instantOut id="e1i_0" time="908.25" state="enter" vehID="f_0.89" speed="5.60" length="5.00" type="DEFAULT_TAXITYPE" gap="2.43"/>
+    <instantOut id="e1i_0" time="909.00" state="stay" vehID="f_0.89" speed="5.60" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="909.11" state="leave" vehID="f_0.89" speed="7.11" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.86"/>
+    <instantOut id="e1i_0" time="911.00" state="enter" vehID="f_0.90" speed="5.88" length="5.00" type="DEFAULT_TAXITYPE" gap="1.89"/>
+    <instantOut id="e1i_0" time="911.85" state="leave" vehID="f_0.90" speed="5.88" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="915.07" state="enter" vehID="f_0.91" speed="5.64" length="5.00" type="DEFAULT_TAXITYPE" gap="3.21"/>
+    <instantOut id="e1i_0" time="915.95" state="leave" vehID="f_0.91" speed="5.64" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.89"/>
+    <instantOut id="e1i_0" time="922.31" state="enter" vehID="f_0.92" speed="6.01" length="5.00" type="DEFAULT_TAXITYPE" gap="6.36"/>
+    <instantOut id="e1i_0" time="923.00" state="stay" vehID="f_0.92" speed="6.01" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="923.11" state="leave" vehID="f_0.92" speed="7.53" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.80"/>
+    <instantOut id="e1i_0" time="932.41" state="enter" vehID="f_0.93" speed="5.39" length="5.00" type="DEFAULT_TAXITYPE" gap="9.30"/>
+    <instantOut id="e1i_0" time="933.00" state="stay" vehID="f_0.93" speed="5.39" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="933.25" state="leave" vehID="f_0.93" speed="7.10" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.85"/>
+    <instantOut id="e1i_0" time="942.77" state="enter" vehID="f_0.82" speed="6.91" length="5.00" type="DEFAULT_TAXITYPE" gap="9.52"/>
+    <instantOut id="e1i_0" time="943.00" state="stay" vehID="f_0.82" speed="6.91" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="943.39" state="leave" vehID="f_0.82" speed="8.71" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.62"/>
+    <instantOut id="e1i_0" time="946.82" state="enter" vehID="f_0.83" speed="7.18" length="5.00" type="DEFAULT_TAXITYPE" gap="3.42"/>
+    <instantOut id="e1i_0" time="947.00" state="stay" vehID="f_0.83" speed="7.18" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="947.39" state="leave" vehID="f_0.83" speed="9.50" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="950.83" state="enter" vehID="f_0.84" speed="7.23" length="5.00" type="DEFAULT_TAXITYPE" gap="3.44"/>
+    <instantOut id="e1i_0" time="951.00" state="stay" vehID="f_0.84" speed="7.23" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="951.40" state="leave" vehID="f_0.84" speed="9.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="954.74" state="enter" vehID="f_0.85" speed="6.85" length="5.00" type="DEFAULT_TAXITYPE" gap="3.34"/>
+    <instantOut id="e1i_0" time="955.00" state="stay" vehID="f_0.85" speed="6.85" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="955.36" state="leave" vehID="f_0.85" speed="9.10" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="957.86" state="enter" vehID="f_0.86" speed="7.17" length="5.00" type="DEFAULT_TAXITYPE" gap="2.50"/>
+    <instantOut id="e1i_0" time="958.00" state="stay" vehID="f_0.86" speed="7.17" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="958.47" state="leave" vehID="f_0.86" speed="8.49" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="961.88" state="enter" vehID="f_0.87" speed="7.06" length="5.00" type="DEFAULT_TAXITYPE" gap="3.41"/>
+    <instantOut id="e1i_0" time="962.00" state="stay" vehID="f_0.87" speed="7.06" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="962.48" state="leave" vehID="f_0.87" speed="8.69" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="965.66" state="enter" vehID="f_0.88" speed="7.29" length="5.00" type="DEFAULT_TAXITYPE" gap="3.18"/>
+    <instantOut id="e1i_0" time="966.00" state="stay" vehID="f_0.88" speed="7.29" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="966.27" state="leave" vehID="f_0.88" speed="9.30" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="969.16" state="enter" vehID="f_0.89" speed="8.32" length="5.00" type="DEFAULT_TAXITYPE" gap="2.89"/>
+    <instantOut id="e1i_0" time="969.76" state="leave" vehID="f_0.89" speed="8.32" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.60"/>
+    <instantOut id="e1i_0" time="972.12" state="enter" vehID="f_0.94" speed="6.61" length="5.00" type="DEFAULT_TAXITYPE" gap="2.36"/>
+    <instantOut id="e1i_0" time="972.87" state="leave" vehID="f_0.94" speed="6.61" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.76"/>
+    <instantOut id="e1i_0" time="974.90" state="enter" vehID="f_0.95" speed="4.94" length="5.00" type="DEFAULT_TAXITYPE" gap="2.02"/>
+    <instantOut id="e1i_0" time="975.00" state="stay" vehID="f_0.95" speed="4.94" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="975.61" state="leave" vehID="f_0.95" speed="7.36" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.71"/>
+    <instantOut id="e1i_0" time="977.98" state="enter" vehID="f_0.96" speed="4.06" length="5.00" type="DEFAULT_TAXITYPE" gap="2.37"/>
+    <instantOut id="e1i_0" time="978.00" state="stay" vehID="f_0.96" speed="4.06" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="978.75" state="leave" vehID="f_0.96" speed="6.53" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.77"/>
+    <instantOut id="e1i_0" time="981.13" state="enter" vehID="f_0.97" speed="6.43" length="5.00" type="DEFAULT_TAXITYPE" gap="2.37"/>
+    <instantOut id="e1i_0" time="981.90" state="leave" vehID="f_0.97" speed="6.43" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.78"/>
+    <instantOut id="e1i_0" time="987.18" state="enter" vehID="f_0.98" speed="6.41" length="5.00" type="DEFAULT_TAXITYPE" gap="5.28"/>
+    <instantOut id="e1i_0" time="987.96" state="leave" vehID="f_0.98" speed="6.41" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.78"/>
+    <instantOut id="e1i_0" time="995.29" state="enter" vehID="f_0.99" speed="5.74" length="5.00" type="DEFAULT_TAXITYPE" gap="7.33"/>
+    <instantOut id="e1i_0" time="996.00" state="stay" vehID="f_0.99" speed="5.74" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="996.12" state="leave" vehID="f_0.99" speed="7.68" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.83"/>
+    <instantOut id="e1i_0" time="1032.87" state="enter" vehID="f_0.90" speed="7.40" length="5.00" type="DEFAULT_TAXITYPE" gap="36.75"/>
+    <instantOut id="e1i_0" time="1033.00" state="stay" vehID="f_0.90" speed="7.40" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1033.42" state="leave" vehID="f_0.90" speed="9.59" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.55"/>
+    <instantOut id="e1i_0" time="1039.01" state="enter" vehID="f_0.91" speed="7.43" length="5.00" type="DEFAULT_TAXITYPE" gap="5.59"/>
+    <instantOut id="e1i_0" time="1039.68" state="leave" vehID="f_0.91" speed="7.43" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.67"/>
+    <instantOut id="e1i_0" time="1042.75" state="enter" vehID="f_0.92" speed="6.81" length="5.00" type="DEFAULT_TAXITYPE" gap="3.06"/>
+    <instantOut id="e1i_0" time="1043.00" state="stay" vehID="f_0.92" speed="6.81" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1043.39" state="leave" vehID="f_0.92" speed="8.41" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.64"/>
+    <instantOut id="e1i_0" time="1046.56" state="enter" vehID="f_0.93" speed="7.19" length="5.00" type="DEFAULT_TAXITYPE" gap="3.17"/>
+    <instantOut id="e1i_0" time="1047.00" state="stay" vehID="f_0.93" speed="7.19" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1047.21" state="leave" vehID="f_0.93" speed="8.76" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.65"/>
+    <instantOut id="e1i_0" time="1050.10" state="enter" vehID="f_0.94" speed="8.52" length="5.00" type="DEFAULT_TAXITYPE" gap="2.89"/>
+    <instantOut id="e1i_0" time="1050.69" state="leave" vehID="f_0.94" speed="8.52" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.59"/>
+    <instantOut id="e1i_0" time="1052.91" state="enter" vehID="f_0.95" speed="6.84" length="5.00" type="DEFAULT_TAXITYPE" gap="2.22"/>
+    <instantOut id="e1i_0" time="1053.00" state="stay" vehID="f_0.95" speed="6.84" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1053.49" state="leave" vehID="f_0.95" speed="8.91" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.58"/>
+    <instantOut id="e1i_0" time="1056.02" state="enter" vehID="f_0.96" speed="9.25" length="5.00" type="DEFAULT_TAXITYPE" gap="2.54"/>
+    <instantOut id="e1i_0" time="1056.56" state="leave" vehID="f_0.96" speed="9.25" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.54"/>
+    <instantOut id="e1i_0" time="1059.90" state="enter" vehID="f_0.97" speed="6.60" length="5.00" type="DEFAULT_TAXITYPE" gap="3.34"/>
+    <instantOut id="e1i_0" time="1060.00" state="stay" vehID="f_0.97" speed="6.60" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1060.51" state="leave" vehID="f_0.97" speed="8.55" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.61"/>
+    <instantOut id="e1i_0" time="1062.67" state="enter" vehID="f_0.98" speed="8.08" length="5.00" type="DEFAULT_TAXITYPE" gap="2.16"/>
+    <instantOut id="e1i_0" time="1063.00" state="stay" vehID="f_0.98" speed="8.08" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1063.23" state="leave" vehID="f_0.98" speed="9.88" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+    <instantOut id="e1i_0" time="1065.73" state="enter" vehID="f_0.99" speed="7.73" length="5.00" type="DEFAULT_TAXITYPE" gap="2.50"/>
+    <instantOut id="e1i_0" time="1066.00" state="stay" vehID="f_0.99" speed="7.73" length="5.00" type="DEFAULT_TAXITYPE"/>
+    <instantOut id="e1i_0" time="1066.30" state="leave" vehID="f_0.99" speed="9.60" length="5.00" type="DEFAULT_TAXITYPE" occupancy="0.57"/>
+</instantE1>

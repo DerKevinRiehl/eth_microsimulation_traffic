@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-20 10:05:31 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Network.net.xml"/>
+        <route-files value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Routes.xml"/>
+        <additional-files value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\SensorElements.add.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <full-output value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Output_Full.xml"/>
+        <lanedata-output value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture04\sumo_example_sensor_logging\Output_LaneData.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="e1_1" nVehContrib="32" flow="384.00" occupancy="4.08" speed="13.10" harmonicMeanSpeed="13.06" length="5.00" nVehEntered="32"/>
+    <interval begin="300.00" end="600.00" id="e1_1" nVehContrib="60" flow="720.00" occupancy="7.67" speed="13.11" harmonicMeanSpeed="13.04" length="5.00" nVehEntered="60"/>
+    <interval begin="600.00" end="900.00" id="e1_1" nVehContrib="61" flow="732.00" occupancy="7.79" speed="13.10" harmonicMeanSpeed="13.06" length="5.00" nVehEntered="61"/>
+    <interval begin="900.00" end="1179.00" id="e1_1" nVehContrib="47" flow="606.45" occupancy="6.42" speed="13.14" harmonicMeanSpeed="13.11" length="5.00" nVehEntered="47"/>
+</detector>

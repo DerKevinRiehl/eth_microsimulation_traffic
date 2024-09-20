@@ -36,7 +36,7 @@ The course introduces basics of microscopic modelling and simulation of traffic 
 - [Lecture 01: Introduction, General Information, Installing SUMO](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture01/README.md)
 - [Lecture 02: Components of Microsimulations & SUMO Introduction](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture02/README.md)
 - [Lecture 03: Create Network & Demand Models](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture03/README.md)
-- Lecture 04: Signals, Sensors, Public transport, Calibration
+- [Lecture 04: Signals, Sensors, Public transport, Calibration] (https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture04/README.md))
 - Lecture 05: TRACI: Manipulate & Sense Simulation in Real-Time
 - Lecture 06: Environmental Impact Assessment
 - Lecture 07: Interim Student-Project Presentations
