@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 08:27:32 by Eclipse SUMO sumo Version 1.19.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <time>
+        <step-length value="0.1"/>
+    </time>
+	
+    <input>
+        <net-file value="Network.net.xml"/>
+        <route-files value="Routes.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+	
+</configuration>

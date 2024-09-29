@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-29 20:04:43 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture01\sumo_example_hello_world\Network.net.xml"/>
+        <route-files value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture01\sumo_example_hello_world\Routes.rou.xml"/>
+        <junction-taz value="true"/>
+    </input>
+
+    <output>
+        <full-output value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture01\sumo_example_hello_world\Output_Full.xml"/>
+        <lanedata-output value="C:\Users\kriehl\Documents\GitHub\eth_microsimulation_traffic\Lecture01\sumo_example_hello_world\Output_Lane.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<full-export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/full_file.xsd">
+</full-export>
