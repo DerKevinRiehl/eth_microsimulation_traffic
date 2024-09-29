@@ -33,6 +33,7 @@ This folder contains three exemplary sumo simulations.
 5. Run the simulation and observe. Repeat to create a realistic highway scenario.
 
 **Third Task: Macroscropic Fundamental Diagram Of The Highway**
+
 6. Place some sensors to count traffic.
 7. Run the simulation.
 8. Parse the XML files produced by the simulation with Python.
@@ -51,6 +52,7 @@ This folder contains three exemplary sumo simulations.
 8. Can you create congestion? Can you solve resolve it with better signal times?
 
 **Fifth Task: Utoquai Delay Distribution**
+
 9. Place some sensors to count traffic.
 10. Run the simulation.
 11. Parse the XML files produced by the simulation with Python.

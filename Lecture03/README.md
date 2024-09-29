@@ -69,7 +69,7 @@ There are also alternatives how to download OSM material.
 The browser based version is limited by the maximum area you can cover.
 More information on the alternatives can be found here: [https://sumo.dlr.de/docs/Networks/Import/OpenStreetMapDownload.html](https://sumo.dlr.de/docs/Networks/Import/OpenStreetMapDownload.html).
 
-**Fifth Task: Combine Network and Demand Model"**
+**Fifth Task: Combine Network and Demand Model**
 - After successfully creating maps in the previous three tasks, pick one of them.
 - Open application `Notepad++`.
 - Generate a `Demand.xml` and `Configuration.Configuration.sumocfg` manually for the network.
