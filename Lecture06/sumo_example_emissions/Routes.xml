@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-12 08:26:43 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicle Type with Emission Class -->
+    <vType id="DEFAULT_TAXITYPE" emissionClass="HBEFA3/PC_G_EU4" accel="2.6" decel="4.5" length="5.0" maxSpeed="50"/>
+    
+	<!-- Routes -->
+    <route id="r_0" edges="E0 E6 E7 E8 E9 E5 E0 E1 E2 E3 E4 E5"/>
+	
+	<!-- Flows -->
+	<flow id="f_0" type="DEFAULT_TAXITYPE" begin="0" end= "1000" period="10" route="r_0">	
+	</flow>
+
+</routes>
