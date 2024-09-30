@@ -15,8 +15,6 @@ sumoConfigFile = "Configuration.sumocfg"
 sumoCmd = [sumoBinary, "-c", sumoConfigFile, "--start", "--quit-on-end", "--time-to-teleport", "-1"]
 traci.start(sumoCmd)
 
-input()
-
 # RUN SIMULATION
 for it in range(0, 500):
     traci.simulationStep()

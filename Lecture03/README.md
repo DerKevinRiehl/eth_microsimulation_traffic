@@ -4,8 +4,8 @@
 
 ## Lecture 03: Create Network & Demand Models
 
-### Three example projects
-This folder contains three exemplary sumo simulations.
+### Five example projects
+This folder contains five exemplary sumo simulations.
 
 - sumo_example_network_crazy_star
 

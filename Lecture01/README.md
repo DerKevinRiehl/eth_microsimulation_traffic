@@ -21,6 +21,7 @@ Please follow the instructions based on your level of confidence in programming.
 ```
 pip install --upgrade pip
 pip install eclipse-sumo traci
+pip install Pillow==9.4.0
 ```
 
 - Validate the installation of the packages by typing:

@@ -4,8 +4,8 @@
 
 ## Lecture 06: Environmental Impact Assessment
 
-### Four example projects
-This folder contains four exemplary sumo simulations.
+### One example project
+This folder contains one exemplary sumo simulation.
 
 - sumo_example_emissions
 
@@ -21,6 +21,7 @@ This folder contains four exemplary sumo simulations.
 1. Use your own network.
 2. Modify your Configuration file so that the simulation logs the emission relevant information.
 3. Use the Python Script from `sumo_example_emissions` to visualize a heatmap of your emissions.
+4. Can you display other emissions than just CO2? Are they similar to CO2 heatmap, or different?
 
 **Third Task: Your Project**
 1. Are environmental impact assessments such as emissions or noise relevant to your project?
