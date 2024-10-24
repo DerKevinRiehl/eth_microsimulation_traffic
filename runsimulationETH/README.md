@@ -8,7 +8,8 @@
 4. Type following command: `pip install --upgrade pip`
 5. Type following command: `pip install eclipse-sumo traci`
 6. Type following command: `pip install Pillow==9.4.0`
-7. Type following command: `conda env list` and see where you python is stored
+7. Type following command: `conda install spyder-kernels==2.4`
+8. Type following command: `conda env list` and see where you python is stored
 7. Launch your IDE (Integrated Development Environment) `Spyder`.
 8. In Spyder, Go to "Tools" -> "Preferences" -> "Python Interpreter" -> "Use the following Python Interpreter" and navigate to your installed environment, e.g. `C:/Users/kriehl/.conda/envs/sumo_env/python.exe
 9. Press `Apply` and `OK`.
