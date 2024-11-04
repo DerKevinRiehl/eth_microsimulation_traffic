@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <!-- SIMULATION SETTINGS -->
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+    
+    <!-- PROCESSING OPTIONS -->
+    <processing>
+        <step-length value="0.25"/>
+        <time-to-teleport value="-1"/> <!-- Disable Teleportation -->
+    </processing>
+    
+    <!-- INPUT FILES -->
+    <input>
+        <net-file value="Network.net.xml"/>
+        <route-files value="Demand.xml"/>
+		<additional-files value="Additional.add.xml"/>
+    </input>
+
+    <!-- OUTPUT FILES / LOGGING -->
+    <output>
+        <tripinfo-output value="log_tripinfo.xml" write-unfinished="true"/>
+        <!--  <vehroute-output value="log_vehroutes.xml" write-unfinished="true" exit-times="true"/> -->
+        <!-- <netstate-dump value="log_netstate.xml"/> -->
+        <!-- <full-output value="full_output.xml"/> -->
+		<!-- <edge-data value="log_edge_data.xml"/> -->
+		<!-- <fcd-output value="fcd_output.xml"/> -->
+    </output>
+
+    <!-- REPORT OPTIONS -->
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+    
+</configuration>

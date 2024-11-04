@@ -40,9 +40,9 @@ The course introduces basics of microscopic modelling and simulation of traffic 
 - [Lecture 05: TRACI: Manipulate & Sense Simulation in Real-Time](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture05/README.md)
 - [Lecture 06: Environmental Impact Assessment](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture06/README.md)
 - Lecture 07: Interim Student-Project Presentations
-- Lecture 08: Connected, Autonomous Vehicles & Rerouting
+- [Lecture 08: Visualization, Animation & Design – SUMO & Matplotlib](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture08/README.md)
 - Lecture 09: Guest Lectures
-- [Lecture 10: Visualization, Animation & Design – SUMO & Matplotlib](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/Lecture10/README.md)
+- Lecture 10: Connected, Autonomous Vehicles & Rerouting
 - Lecture 11: Final Student-Project Presentations
 
 

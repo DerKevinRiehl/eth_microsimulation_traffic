@@ -2,7 +2,7 @@
 ## [ETH-Course-ID 101-0492-00L]
 ## Kevin Riehl [ETH Zürich, Institute for Transportation Planning and Systems IVT, Traffic Engineering Group SVT]
 
-## Lecture 10: Visualization, Animation & Design – SUMO & Matplotlib
+## Lecture 08: Visualization, Animation & Design – SUMO & Matplotlib
 
 ### Six example projects
 This folder contains six exemplary sumo simulations.
