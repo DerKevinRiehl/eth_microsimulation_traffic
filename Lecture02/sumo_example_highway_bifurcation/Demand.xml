@@ -57,14 +57,14 @@
 	<flow id="f_C_A_car" type="car_A" begin="0" end="1000" vehsPerHour="500" route="C_A"/>
 	<flow id="f_C_B_car" type="car_B" begin="0" end="1000" vehsPerHour="500" route="C_B"/>
 	
-	<flow id="f_A_D_del" type="del_A" begin="0" end="1000" vehsPerHour="100" route="B_C"/>
-	<flow id="f_B_D_del" type="del_B2" begin="0" end="1000" vehsPerHour="100" route="B_D"/>
+	<flow id="f_A_D_del" type="del_A" begin="0" end="1000" vehsPerHour="300" route="B_C"/>
+	<flow id="f_B_D_del" type="del_B2" begin="0" end="1000" vehsPerHour="300" route="B_D"/>
 
-	<flow id="f_A_A_bus" type="bus_A" begin="0" end="1000" vehsPerHour="100" route="D_A"/>
-	<flow id="f_A_D_bus" type="bus_B" begin="0" end="1000" vehsPerHour="100" route="C_A"/>
+	<flow id="f_A_A_bus" type="bus_A" begin="0" end="1000" vehsPerHour="300" route="D_A"/>
+	<flow id="f_A_D_bus" type="bus_B" begin="0" end="1000" vehsPerHour="300" route="C_A"/>
 
-	<flow id="f_D_A_trk" type="trk_A" begin="0" end="1000" vehsPerHour="100" route="D_A"/>
-	<flow id="f_D_B_trk" type="trk_B" begin="0" end="1000" vehsPerHour="100" route="D_B"/>
+	<flow id="f_D_A_trk" type="trk_A" begin="0" end="1000" vehsPerHour="300" route="D_A"/>
+	<flow id="f_D_B_trk" type="trk_B" begin="0" end="1000" vehsPerHour="300" route="D_B"/>
 
 </routes>
 

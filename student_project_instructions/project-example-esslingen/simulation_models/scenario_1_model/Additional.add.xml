@@ -1,5 +1,0 @@
-<additional>
-    <edgeData id="edge_data" file="log_edge_data.xml" freq="60" excludeEmpty="false">
-		<edgeParam key="length" />
-	</edgeData>
-</additional>

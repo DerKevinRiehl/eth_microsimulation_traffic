@@ -45,6 +45,9 @@ The course introduces basics of microscopic modelling and simulation of traffic 
 - Lecture 10: Connected, Autonomous Vehicles & Rerouting
 - Lecture 11: Final Student-Project Presentations
 
+### Instructions For Semester Project
+Please go to this [article](https://github.com/DerKevinRiehl/eth_microsimulation_traffic/blob/main/student_project_instructions/CourseDeliverables.md).
+
 
 ### Recommended Links, Documentation, Tutorials & Read-Ups
 

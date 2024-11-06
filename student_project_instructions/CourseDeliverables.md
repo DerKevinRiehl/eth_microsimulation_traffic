@@ -10,6 +10,9 @@ By the end of this course, you will need to prepare a final presentation and pro
     3. Final Report (5-10 pages)
 2. Project Work Result
 
+On this page you will find detailed instructions what you need to prepare.
+A template can be found in this folder as well `project-template-empty.zip` and an example folder of a study of mine and a master thesis student `project-example-esslingen`.
+
 # 1. Project Documentation
 ## i) Iterim Presentations
 

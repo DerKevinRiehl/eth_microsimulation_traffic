@@ -1,1 +1,0 @@
-python macrOutput.py ../../simulation_output/scenario_1_model/log_edge_data.xml

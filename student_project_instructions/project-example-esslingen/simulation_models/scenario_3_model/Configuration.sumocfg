@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <!-- SIMULATION SETTINGS -->
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+    
+    <!-- PROCESSING OPTIONS -->
+    <processing>
+        <step-length value="0.25"/>
+        <time-to-teleport value="-1"/> <!-- Disable Teleportation -->
+    </processing>
+    
+    <!-- INPUT FILES -->
+    <input>
+        <net-file value="Network.net.xml"/>
+        <route-files value="Demand.xml"/>
+    </input>
+	<additional-files value="Additional_SensorsMFD.add.xml"/>
+
+    <!-- OUTPUT FILES / LOGGING -->
+    <output>
+	   <emission-output value="log_emissions.xml"/>
+	   <tripinfo-output value="log_tripinfo.xml" write-unfinished="true"/>
+    </output>
+
+    <!-- REPORT OPTIONS -->
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+    
+</configuration>

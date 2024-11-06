@@ -18,17 +18,13 @@
     <input>
         <net-file value="Network.net.xml"/>
         <route-files value="Demand.xml"/>
-		<additional-files value="Additional.add.xml"/>
     </input>
+	<additional-files value="Additional_SensorsMFD.add.xml"/>
 
     <!-- OUTPUT FILES / LOGGING -->
     <output>
-        <tripinfo-output value="log_tripinfo.xml" write-unfinished="true"/>
-        <!--  <vehroute-output value="log_vehroutes.xml" write-unfinished="true" exit-times="true"/> -->
-        <!-- <netstate-dump value="log_netstate.xml"/> -->
-        <!-- <full-output value="full_output.xml"/> -->
-		<!-- <edge-data value="log_edge_data.xml"/> -->
-		<!-- <fcd-output value="fcd_output.xml"/> -->
+	   <emission-output value="log_emissions.xml"/>
+	   <tripinfo-output value="log_tripinfo.xml" write-unfinished="true"/>
     </output>
 
     <!-- REPORT OPTIONS -->
