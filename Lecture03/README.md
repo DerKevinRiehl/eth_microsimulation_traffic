@@ -58,7 +58,7 @@ This folder contains five exemplary sumo simulations.
 ```
 netconvert --osm-files [PATH-TO-OSM-FILE] -o [PATH-TO-NET-FILE]
 ```
-or
+or.
 6. Use  `cd ` command to navigate to the folder where you installed SUMO, e.g.  `cd C:/Programs/Local/sumo-1.19.0 `.
 7. Convert the downloaded  `.OSM ` file to a SUMO network with following command:
 ```
