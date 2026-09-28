@@ -56,7 +56,7 @@ This folder contains five exemplary sumo simulations.
 6. Use  `cd ` command to navigate to the folder where you installed SUMO, e.g.  `cd C:/Programs/Local/sumo-1.19.0 `.
 7. Convert the downloaded  `.OSM ` file to a SUMO network with following command:
 ```
-python tools/osmBuild.py --osm-file [PATH-TO-OSM-FILE]
+python tools/osmBuild.py -f [PATH-TO-OSM-FILE] -p [PATH-TO-NET-FILE]
 ```
 8. Two files should have been generated:
 - osm.net.xml
