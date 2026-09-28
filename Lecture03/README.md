@@ -56,11 +56,9 @@ This folder contains five exemplary sumo simulations.
 6. Use  `cd ` command to navigate to the folder where you installed SUMO, e.g.  `cd C:/Programs/Local/sumo-1.19.0/bin `.
 7. Convert the downloaded  `.OSM ` file to a SUMO network with following command:
 ```
-netconvert --osm-files [PATH-TO-OSM-FILE] -o [PATH-TO-NET-FILE]
+bin/netconvert --osm-files [PATH-TO-OSM-FILE] -o [PATH-TO-NET-FILE]
 ```
 or <br>
-6. Use  `cd ` command to navigate to the folder where you installed SUMO, e.g.  `cd C:/Programs/Local/sumo-1.19.0 `. <br>
-7. Convert the downloaded  `.OSM ` file to a SUMO network with following command:
 ```
 python tools/osmBuild.py -f [PATH-TO-OSM-FILE] -p [PATH-TO-NET-FILE]
 ```
